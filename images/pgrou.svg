@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="796" version="1.1" width="1532" xmlns="http://www.w3.org/2000/svg">
+<polygon fill="#ffffff" points="206,398 604,398 604,422 653,422 653,781 206,781 206,398" stroke="#ffffff" stroke-width="1"/>
+<rect fill="none" height="24" stroke="#000000" stroke-width="1" width="398" x="206" y="398"/>
+<text font-family="Dialog" font-size="12" x="211" y="412">
+API</text>
+<rect fill="none" height="359" stroke="#000000" stroke-width="1" width="447" x="206" y="422"/>
+<polygon fill="#ffffff" points="46,430 135,430 135,454 184,454 184,529 46,529 46,430" stroke="#ffffff" stroke-width="1"/>
+<rect fill="none" height="24" stroke="#000000" stroke-width="1" width="89" x="46" y="430"/>
+<text font-family="Dialog" font-size="12" x="51" y="444">
+IHM</text>
+<rect fill="none" height="75" stroke="#000000" stroke-width="1" width="138" x="46" y="454"/>
+<polygon fill="#ffffff" points="14,14 604,14 604,38 653,38 653,365 14,365 14,14" stroke="#ffffff" stroke-width="1"/>
+<rect fill="none" height="24" stroke="#000000" stroke-width="1" width="590" x="14" y="14"/>
+<text font-family="Dialog" font-size="12" x="19" y="28">
+recognizer</text>
+<rect fill="none" height="327" stroke="#000000" stroke-width="1" width="639" x="14" y="38"/>
+<polygon fill="#ffffff" points="686,14 1468,14 1468,38 1517,38 1517,589 686,589 686,14" stroke="#ffffff" stroke-width="1"/>
+<rect fill="none" height="24" stroke="#000000" stroke-width="1" width="782" x="686" y="14"/>
+<text font-family="Dialog" font-size="12" x="691" y="28">
+shared</text>
+<rect fill="none" height="551" stroke="#000000" stroke-width="1" width="831" x="686" y="38"/>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="137" x="78" y="238"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="137" x="78" y="238"/>
+<text font-family="Dialog" font-size="12" x="83" y="252">
++ recognizer::Shaper??</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="137" x="78" y="262"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="137" x="78" y="283"/>
+<rect fill="#ffffff" height="161" stroke="#ffffff" stroke-width="1" width="310" x="46" y="46"/>
+<rect fill="none" height="161" stroke="#000000" stroke-width="1" width="310" x="46" y="46"/>
+<text font-family="Dialog" font-size="12" x="137" y="60">
++ recognizer::Shaper12</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="310" x="46" y="70"/>
+<text font-family="Dialog" font-size="12" x="50" y="85">
++shapeList : Message</text>
+<text font-family="Dialog" font-size="12" x="50" y="102">
++catalogSimpleForm [1..*] : SimpleShapeTODO</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="310" x="46" y="112"/>
+<text font-family="Dialog" font-size="12" x="50" y="127">
++matcher( : SimpleShapeTODO) : Boolean {sequential}</text>
+<text font-family="Dialog" font-size="12" x="50" y="144">
++leMatcheur() {sequential}</text>
+<text font-family="Dialog" font-size="12" x="50" y="161">
++recevoir() {sequential}</text>
+<text font-family="Dialog" font-size="12" x="50" y="178">
++envoyer() {sequential}</text>
+<text font-family="Dialog" font-size="12" x="50" y="195">
+&lt;&lt;create&gt;&gt; +Shaper12() {sequential}</text>
+<rect fill="#ffffff" height="127" stroke="#ffffff" stroke-width="1" width="302" x="334" y="206"/>
+<rect fill="none" height="127" stroke="#000000" stroke-width="1" width="302" x="334" y="206"/>
+<text font-family="Dialog" font-size="12" x="421" y="220">
++ recognizer::Shaper23</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="302" x="334" y="230"/>
+<text font-family="Dialog" font-size="12" x="338" y="245">
++shapeList : Message</text>
+<text font-family="Dialog" font-size="12" x="338" y="262">
++catalogComplexeForm [1..*] : ComplexeShapeTODO</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="302" x="334" y="272"/>
+<text font-family="Dialog" font-size="12" x="338" y="287">
++matcher( : Integer) : Boolean {sequential}</text>
+<text font-family="Dialog" font-size="12" x="338" y="304">
++leMatcheur() {sequential}</text>
+<text font-family="Dialog" font-size="12" x="338" y="321">
+&lt;&lt;create&gt;&gt; +Shaper23() {sequential}</text>
+<rect fill="#ffffff" height="96" stroke="#ffffff" stroke-width="1" width="222" x="1134" y="78"/>
+<rect fill="none" height="96" stroke="#000000" stroke-width="1" width="222" x="1134" y="78"/>
+<text font-family="Dialog" font-size="12" x="1199" y="92">
++ shared::Shape</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="222" x="1134" y="102"/>
+<text font-family="Dialog" font-size="12" x="1138" y="117">
++natureShape? : String</text>
+<text font-family="Dialog" font-size="12" x="1138" y="134">
++ID? : Integer</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="222" x="1134" y="146"/>
+<text font-family="Dialog" font-size="12" x="1138" y="161">
+&lt;&lt;create&gt;&gt; +FormeElem() {sequential}</text>
+<rect fill="#ffffff" height="93" stroke="#ffffff" stroke-width="1" width="219" x="1230" y="206"/>
+<rect fill="none" height="93" stroke="#000000" stroke-width="1" width="219" x="1230" y="206"/>
+<text font-family="Dialog" font-size="12" x="1281" y="220">
++ shared::Elementary</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="219" x="1230" y="230"/>
+<text font-family="Dialog" font-size="12" x="1234" y="245">
++ID : Integer</text>
+<text font-family="Dialog" font-size="12" x="1234" y="262">
++ends [0..1] : Point</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="219" x="1230" y="272"/>
+<text font-family="Dialog" font-size="12" x="1234" y="287">
+&lt;&lt;create&gt;&gt; +Elementary() {sequential}</text>
+<polyline fill="none" points="1326,206 1326,173" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="1326,173 1333,185 1319,185" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="1326,173 1333,185 1319,185" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="76" stroke="#ffffff" stroke-width="1" width="179" x="1134" y="398"/>
+<rect fill="none" height="76" stroke="#000000" stroke-width="1" width="179" x="1134" y="398"/>
+<text font-family="Dialog" font-size="12" x="1171" y="412">
++ shared::Segment</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="179" x="1134" y="422"/>
+<text font-family="Dialog" font-size="12" x="1138" y="437">
++distance : Integer</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="179" x="1134" y="447"/>
+<text font-family="Dialog" font-size="12" x="1138" y="462">
+&lt;&lt;create&gt;&gt; +Seg() {sequential}</text>
+<polyline fill="none" points="1294,398 1294,298" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="1294,298 1301,310 1287,310" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="1294,298 1301,310 1287,310" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="144" stroke="#ffffff" stroke-width="1" width="174" x="1326" y="334"/>
+<rect fill="none" height="144" stroke="#000000" stroke-width="1" width="174" x="1326" y="334"/>
+<text font-family="Dialog" font-size="12" x="1377" y="348">
++ shared::Arc</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="174" x="1326" y="358"/>
+<text font-family="Dialog" font-size="12" x="1330" y="373">
++smallRadus : Integer</text>
+<text font-family="Dialog" font-size="12" x="1330" y="390">
++GigRadus : Integer</text>
+<text font-family="Dialog" font-size="12" x="1330" y="407">
++Center : Point</text>
+<text font-family="Dialog" font-size="12" x="1330" y="424">
++startAngle : Integer</text>
+<text font-family="Dialog" font-size="12" x="1330" y="441">
++endAngle : Integer</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="174" x="1326" y="451"/>
+<text font-family="Dialog" font-size="12" x="1330" y="466">
+&lt;&lt;create&gt;&gt; +Arc() {sequential}</text>
+<polyline fill="none" points="1358,334 1358,298" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="1358,298 1365,310 1351,310" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="1358,298 1365,310 1351,310" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="110" stroke="#ffffff" stroke-width="1" width="297" x="814" y="334"/>
+<rect fill="none" height="110" stroke="#000000" stroke-width="1" width="297" x="814" y="334"/>
+<text font-family="Dialog" font-size="12" x="872" y="348">
++ shared::ComplexeShapeTODO</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="297" x="814" y="358"/>
+<text font-family="Dialog" font-size="12" x="818" y="373">
++listeFormeSimpleBesoin [0..*] : SimpleShapeTODO</text>
+<text font-family="Dialog" font-size="12" x="818" y="390">
++listeContrainteSimpleBesoin [0..*]</text>
+<text font-family="Dialog" font-size="12" x="818" y="407">
++nom : String</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="297" x="814" y="417"/>
+<text font-family="Dialog" font-size="12" x="818" y="432">
+&lt;&lt;create&gt;&gt; +FormeComplexe() {sequential}</text>
+<polyline fill="none" points="1110,334 1198,206 1198,173" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="1198,173 1205,185 1191,185" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="1198,173 1205,185 1191,185" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="110" stroke="#ffffff" stroke-width="1" width="256" x="814" y="206"/>
+<rect fill="none" height="110" stroke="#000000" stroke-width="1" width="256" x="814" y="206"/>
+<text font-family="Dialog" font-size="12" x="860" y="220">
++ shared::SimpleShapeTODO</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="256" x="814" y="230"/>
+<text font-family="Dialog" font-size="12" x="818" y="245">
++listeFormeElemBesoin [1..*] : Shape</text>
+<text font-family="Dialog" font-size="12" x="818" y="262">
++listeContrainteElemBesoin [1..*] : Constraint</text>
+<text font-family="Dialog" font-size="12" x="818" y="279">
++nom : String</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="256" x="814" y="289"/>
+<text font-family="Dialog" font-size="12" x="818" y="304">
+&lt;&lt;create&gt;&gt; +FormeSimple() {sequential}</text>
+<polyline fill="none" points="1069,206 1102,206 1134,173" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="1134,173 1130,186 1120,176" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="1134,173 1130,186 1120,176" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="93" stroke="#ffffff" stroke-width="1" width="185" x="1294" y="494"/>
+<rect fill="none" height="93" stroke="#000000" stroke-width="1" width="185" x="1294" y="494"/>
+<text font-family="Dialog" font-size="12" x="1345" y="508">
++ shared::Point</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="185" x="1294" y="518"/>
+<text font-family="Dialog" font-size="12" x="1298" y="533">
++x : Integer</text>
+<text font-family="Dialog" font-size="12" x="1298" y="550">
++y : Integer</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="185" x="1294" y="560"/>
+<text font-family="Dialog" font-size="12" x="1298" y="575">
+&lt;&lt;create&gt;&gt; +Point() {sequential}</text>
+<rect fill="#ffffff" height="127" stroke="#ffffff" stroke-width="1" width="388" x="718" y="46"/>
+<rect fill="none" height="127" stroke="#000000" stroke-width="1" width="388" x="718" y="46"/>
+<text font-family="Dialog" font-size="12" x="859" y="60">
++ shared::Message</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="388" x="718" y="70"/>
+<text font-family="Dialog" font-size="12" x="722" y="85">
++shapes [0..*] : Shape</text>
+<text font-family="Dialog" font-size="12" x="722" y="102">
++constraints [0..*] : Constraint</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="388" x="718" y="112"/>
+<text font-family="Dialog" font-size="12" x="722" y="127">
++add(toConcatenate : Message) {sequential}</text>
+<text font-family="Dialog" font-size="12" x="722" y="144">
+&lt;&lt;create&gt;&gt; +ShapeList() {sequential}</text>
+<text font-family="Dialog" font-size="12" x="722" y="161">
++selectConstraint(theConstraint : Constraint) : Constraint {sequential}</text>
+<rect fill="#ffffff" height="110" stroke="#ffffff" stroke-width="1" width="243" x="878" y="462"/>
+<rect fill="none" height="110" stroke="#000000" stroke-width="1" width="243" x="878" y="462"/>
+<text font-family="Dialog" font-size="12" x="943" y="476">
++ shared::Constraint</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="243" x="878" y="486"/>
+<text font-family="Dialog" font-size="12" x="882" y="501">
++shapes [1..*] : Shape</text>
+<text font-family="Dialog" font-size="12" x="882" y="518">
++type : ConstraintType</text>
+<text font-family="Dialog" font-size="12" x="882" y="535">
++value : Integer</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="243" x="878" y="545"/>
+<text font-family="Dialog" font-size="12" x="882" y="560">
+&lt;&lt;create&gt;&gt; +ContrainteElem() {sequential}</text>
+<rect fill="#ffffff" height="125" stroke="#ffffff" stroke-width="1" width="138" x="718" y="462"/>
+<rect fill="none" height="125" stroke="#000000" stroke-width="1" width="138" x="718" y="462"/>
+<text font-family="Dialog" font-size="12" x="723" y="496">
+shared::ConstraintType</text>
+<text font-family="Dialog" font-size="12" x="738" y="477">
+&lt;&lt;enumeration&gt;&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="138" x="718" y="506"/>
+<text font-family="Dialog" font-size="12" x="722" y="521">
+Jointure</text>
+<text font-family="Dialog" font-size="12" x="722" y="538">
+Colinéarité</text>
+<text font-family="Dialog" font-size="12" x="722" y="555">
+Coaxialité</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="138" x="718" y="565"/>
+<rect fill="#ffffff" height="127" stroke="#ffffff" stroke-width="1" width="316" x="238" y="430"/>
+<rect fill="none" height="127" stroke="#000000" stroke-width="1" width="316" x="238" y="430"/>
+<text font-family="Dialog" font-size="12" x="336" y="444">
++ API::APICatalogueur</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="316" x="238" y="454"/>
+<text font-family="Dialog" font-size="12" x="242" y="469">
++catalogSimpleForm [1..*] : SimpleShapeTODO</text>
+<text font-family="Dialog" font-size="12" x="242" y="486">
++catalogueComplexeForm [1..*] : ComplexeShapeTODO</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="316" x="238" y="496"/>
+<text font-family="Dialog" font-size="12" x="242" y="511">
++miseAJourFS(fichierTexteFS : String) {sequential}</text>
+<text font-family="Dialog" font-size="12" x="242" y="528">
++miseAJourFC(fichierTexteFC : String) {sequential}</text>
+<text font-family="Dialog" font-size="12" x="242" y="545">
+&lt;&lt;create&gt;&gt; +APICatalogueur() {sequential}</text>
+<rect fill="#ffffff" height="178" stroke="#ffffff" stroke-width="1" width="217" x="366" y="590"/>
+<rect fill="none" height="178" stroke="#000000" stroke-width="1" width="217" x="366" y="590"/>
+<text font-family="Dialog" font-size="12" x="443" y="604">
++ API::APItri</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="217" x="366" y="614"/>
+<text font-family="Dialog" font-size="12" x="370" y="629">
+-listeFormesElem [0..*] : Elementary</text>
+<text font-family="Dialog" font-size="12" x="370" y="646">
++listeContrainteElem [0..*] : Constraint</text>
+<text font-family="Dialog" font-size="12" x="370" y="663">
++shapeList : Message</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="217" x="366" y="673"/>
+<text font-family="Dialog" font-size="12" x="370" y="688">
++gatherSegment() {sequential}</text>
+<text font-family="Dialog" font-size="12" x="370" y="705">
++gatherCercle() {sequential}</text>
+<text font-family="Dialog" font-size="12" x="370" y="722">
++recevoir() {sequential}</text>
+<text font-family="Dialog" font-size="12" x="370" y="739">
++envoyer() {sequential}</text>
+<text font-family="Dialog" font-size="12" x="370" y="756">
+&lt;&lt;create&gt;&gt; +Api0() {sequential}</text>
+</svg>
